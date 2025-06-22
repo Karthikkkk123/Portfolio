@@ -55,7 +55,7 @@ const Hero = () => {
               {[
                 { icon: Github, text: "GitHub", href: "https://github.com/Karthikkkk123", bg: "bg-white text-gray-900 border-2 border-gray-300 hover:bg-gray-800 hover:text-white" },
                 { icon: Linkedin, text: "LinkedIn", href: "https://www.linkedin.com/in/karthikeya-pagidimarry/", bg: "bg-blue-600 hover:bg-blue-700" },
-                { icon: Download, text: "Resume", href: "Resume_updated.pdf", bg: "bg-white text-gray-900 border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600" }
+                { icon: Download, text: "Resume", href: "../../Resume_updated.pdf", bg: "bg-white text-gray-900 border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600" }
               ].map((button, index) => (
                 <motion.a
                   key={button.text}
@@ -99,7 +99,7 @@ const Hero = () => {
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 p-1">
                 <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
                   <motion.img
-                    src="images\ME.jpg"
+                    src="../../images\ME.jpg"
                     alt="Karthikeya"
                     className="w-full h-full object-cover rounded-full"
                     whileHover={{ scale: 1.05 }}

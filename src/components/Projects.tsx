@@ -7,7 +7,7 @@ const Projects = () => {
       id: 1,
       title: "E-Commerce Platform",
       description: "Full-stack e-commerce application with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
-      image: "images\Agritech.png",
+      image: "../../images\Agritech.png",
       technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
       githubUrl: "https://github.com/Karthikkkk123/AgriTech"
     },
