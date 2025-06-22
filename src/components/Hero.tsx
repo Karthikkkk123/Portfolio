@@ -99,7 +99,7 @@ const Hero = () => {
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 p-1">
                 <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
                   <motion.img
-                    src="../../images\ME.jpg"
+                    src="../../public/images/ME.jpg"
                     alt="Karthikeya"
                     className="w-full h-full object-cover rounded-full"
                     whileHover={{ scale: 1.05 }}
