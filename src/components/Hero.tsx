@@ -22,7 +22,7 @@ const Hero = () => {
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
                 Hi, I'm <span className="text-blue-600">
-                  Karthik
+                  Karthikeya
                 </span>
               </motion.h1>
               <motion.h2 
@@ -31,7 +31,7 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                Full Stack Developer
+                AI Developer
               </motion.h2>
               <motion.p 
                 className="text-lg text-gray-600 leading-relaxed max-w-lg"
@@ -55,7 +55,7 @@ const Hero = () => {
               {[
                 { icon: Github, text: "GitHub", href: "https://github.com/Karthikkkk123", bg: "bg-white text-gray-900 border-2 border-gray-300 hover:bg-gray-800 hover:text-white" },
                 { icon: Linkedin, text: "LinkedIn", href: "https://www.linkedin.com/in/karthikeya-pagidimarry/", bg: "bg-blue-600 hover:bg-blue-700" },
-                { icon: Download, text: "Resume", href: "../../Resume_updated.pdf", bg: "bg-white text-gray-900 border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600" }
+                { icon: Download, text: "Resume", href: "public\Resume_updated.pdf", bg: "bg-white text-gray-900 border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600" }
               ].map((button, index) => (
                 <motion.a
                   key={button.text}
@@ -84,7 +84,7 @@ const Hero = () => {
               whileHover={{ x: 10 }}
             >
               <Mail size={20} />
-              <span>karthik@example.com</span>
+              <span>pagidimarrykarthikeya@gmail.com</span>
             </motion.div>
           </motion.div>
 
@@ -99,7 +99,7 @@ const Hero = () => {
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 p-1">
                 <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
                   <motion.img
-                    src="../../public/images/ME.jpg"
+                    src="public\images\ME.jpg"
                     alt="Karthikeya"
                     className="w-full h-full object-cover rounded-full"
                     whileHover={{ scale: 1.05 }}

@@ -209,7 +209,6 @@ const Contact = () => {
                     type="text"
                     id="name"
                     name="name"
-                    autoComplete="name"
                     value={formData.name}
                     onChange={handleChange}
                     required
@@ -230,7 +229,6 @@ const Contact = () => {
                     type="email"
                     id="email"
                     name="email"
-                    autoComplete="email"
                     value={formData.email}
                     onChange={handleChange}
                     required
@@ -273,7 +271,6 @@ const Contact = () => {
                 <textarea
                   id="message"
                   name="message"
-                  autoComplete="off"
                   value={formData.message}
                   onChange={handleChange}
                   required

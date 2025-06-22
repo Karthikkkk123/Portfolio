@@ -42,7 +42,7 @@ const Footer = () => {
               {[
                 { icon: Github, href: "https://github.com/Karthikkkk123" },
                 { icon: Linkedin, href: "#" },
-                { icon: Mail, href: "mailto:karthik@example.com" }
+                { icon: Mail, href: "mailto:pagidimarrykarthikeya@gmail.com" }
               ].map((social, index) => (
                 <motion.a
                   key={index}
@@ -140,12 +140,6 @@ const Footer = () => {
               className="text-gray-400 text-sm flex items-center gap-1 mt-4 md:mt-0"
               whileHover={{ scale: 1.05 }}
             >
-              Made with <motion.span
-                animate={{ scale: [1, 1.2, 1] }}
-                transition={{ duration: 1, repeat: Infinity }}
-              >
-                <Heart size={16} className="text-red-500" />
-              </motion.span> using React & Tailwind CSS
             </motion.p>
           </div>
         </motion.div>
