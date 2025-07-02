@@ -9,7 +9,7 @@ const Achievements = () => {
       event: "Tredence Inc. Corporate Hackathon",
       date: "April 2025",
       description: "2nd place winner for building an AI-powered sustainability platform that helps users track and reduce their carbon footprint.",
-      image: "public/images/Tredence.jpg",
+      image: "Tredence.jpg",
       prizeAmount: "2,00,000"
     },
     {
@@ -18,7 +18,7 @@ const Achievements = () => {
       event: "OLabs",
       date: "February 2025",
       description: "1st place for developing a smart traffic management system using IoT sensors and machine learning algorithms.",
-      image: "public/images/IMG_0727.jpg",
+      image: "IMG_0727.jpg",
       prizeAmount: "1,00,000"
     },
     {
@@ -27,7 +27,7 @@ const Achievements = () => {
       event: "VIT Bhimavaram Nstional Hackathons",
       date: "March 2025",
       description: "Winner for creating a blockchain-based microfinance platform that provides financial services to underbanked communities.",
-      image: "public/images/Vit.jpg",
+      image: "Vit.jpg",
       prizeAmount: "25,000"
     },
     {
@@ -36,7 +36,7 @@ const Achievements = () => {
       event: "IIT Hyderabad ",
       date: "March 2025",
       description: "Awarded for developing a mental health companion app with AI-powered mood tracking and personalized recommendations.",
-      image: "public/images/IITH.jpg",
+      image: "IITH.jpg",
       prizeAmount: "15,000"
     },
     {
@@ -45,7 +45,7 @@ const Achievements = () => {
       event: "Amrita Vishwa Vidhyapeetham",
       date: "January 2025",
       description: "Winner for developing an innovative solution to reduce food waste using machine learning and IoT technology.",
-      image: "public/images/image.png",
+      image: "image.png",
       prizeAmount: "5,000"
     }
   ];
