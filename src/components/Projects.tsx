@@ -7,7 +7,7 @@ const Projects = () => {
       id: 1,
       title: "Indian Sign Language Detector",
       description: "Real-time Indian Sign Language detection system using OpenCV and a custom-trained CNN model. Detects hand gestures via webcam and classifies them into corresponding sign language alphabets.",
-      image: "IndianSignLanguageDetector.png",
+      image: "ISL.png",
       technologies: ["Python", "OpenCV", "TensorFlow", "Keras", "NumPy"],
       githubUrl: "https://github.com/Karthikkkk123/Indian-Sign-Language-Detector"
     },
@@ -16,9 +16,8 @@ const Projects = () => {
       title: "AgriTech",
       description: "Full-stack agritech platform that connects farmers with buyers. Features include crop listing, live market pricing, smart recommendations, and secure communication between stakeholders.",
       image: "AgriTech.png",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+      technologies: ["React", "Node.js", "Express", "MongoDB", "LLM", "Voice Recognition", "JWT"],
       githubUrl: "https://github.com/Karthikkkk123/AgriTech"
-      
     },
     {
       id: 3,
@@ -32,17 +31,17 @@ const Projects = () => {
       id: 4,
       title: "Suraksha",
       description: "SURAKSHA is an AI-powered, all‑in‑one cybersecurity platform that automates vulnerability detection (e.g., scanning open ports, weak passwords) and provides AI‑driven remediation guidance alongside interactive educational tools like voice‑based learning and a conversational security agent.",
-      image: "public\\images\\Suraksha.png",
+      image: "Suraksha.png",
       technologies: ["Python", "AI Agents", "Penetration Testing Automation", "Dashboards/Visualization", "Voice & Chat Interfaces"],
       githubUrl: "https://github.com/Karthikkkk123/Suraksha"
     },
     {
-      id: 4,
-      title: "Social Media Analytics",
-      description: "Analytics dashboard for social media metrics with data visualization and reporting features.",
-      image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=400",
-      technologies: ["Vue.js", "D3.js", "Python", "Django", "PostgreSQL"],
-      githubUrl: "https://github.com/Karthikkkk123"
+      id: 5,
+      title: "Game Recommendation System using GNN",
+      description: "A content-based PC game recommendation engine using Graph Neural Networks (GNNs). Users select up to 5 games, and the system predicts similar games based on graph relationships between game attributes.",
+      image: "GNN.png",
+      technologies: ["Python", "PyTorch Geometric", "GNN", "Google Colab", "Pandas", "NumPy"],
+      githubUrl: "https://github.com/Karthikkkk123/Game-Recommendation-System-using-GNN"
     }
   ];
 
