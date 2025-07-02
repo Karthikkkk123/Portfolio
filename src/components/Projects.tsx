@@ -5,27 +5,36 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce application with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
-      image: "public\images\Agritech.png",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-      githubUrl: "https://github.com/Karthikkkk123/AgriTech"
+      title: "Indian Sign Language Detector",
+      description: "Real-time Indian Sign Language detection system using OpenCV and a custom-trained CNN model. Detects hand gestures via webcam and classifies them into corresponding sign language alphabets.",
+      image: "IndianSignLanguageDetector.png",
+      technologies: ["Python", "OpenCV", "TensorFlow", "Keras", "NumPy"],
+      githubUrl: "https://github.com/Karthikkkk123/Indian-Sign-Language-Detector"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates using Socket.io. Built with React and Express.",
-      image: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=400",
-      technologies: ["React", "Socket.io", "Express", "PostgreSQL"],
-      githubUrl: "https://github.com/Karthikkkk123"
+      title: "AgriTech",
+      description: "Full-stack agritech platform that connects farmers with buyers. Features include crop listing, live market pricing, smart recommendations, and secure communication between stakeholders.",
+      image: "AgriTech.png",
+      technologies: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+      githubUrl: "https://github.com/Karthikkkk123/AgriTech"
+      
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "Modern weather application with detailed forecasts and interactive charts. Built with React and OpenWeather API.",
-      image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=400",
-      technologies: ["React", "Chart.js", "OpenWeather API", "Tailwind CSS"],
-      githubUrl: "https://github.com/Karthikkkk123"
+      title: "Sanjeevani",
+      description: "AI-powered health diagnosis assistant that collects user symptoms and provides preliminary analysis using LLMs. Includes voice input, symptom filtering, and automated report generation.",
+      image: "Sanjeevani.png",
+      technologies: ["Python", "n8n", "Gemini API", "ElevenLabs", "LLM", "Voice Recognition"],
+      githubUrl: "https://github.com/Karthikkkk123/Sanjeevani"
+    },
+    {
+      id: 4,
+      title: "Suraksha",
+      description: "SURAKSHA is an AI-powered, all‑in‑one cybersecurity platform that automates vulnerability detection (e.g., scanning open ports, weak passwords) and provides AI‑driven remediation guidance alongside interactive educational tools like voice‑based learning and a conversational security agent.",
+      image: "public\\images\\Suraksha.png",
+      technologies: ["Python", "AI Agents", "Penetration Testing Automation", "Dashboards/Visualization", "Voice & Chat Interfaces"],
+      githubUrl: "https://github.com/Karthikkkk123/Suraksha"
     },
     {
       id: 4,
