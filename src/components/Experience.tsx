@@ -5,21 +5,17 @@ import { motion } from 'framer-motion';
 const Experience = () => {
   const experience = {
     id: 1,
-    company: "TechCorp Solutions",
-    position: "Full Stack Developer",
-    location: "San Francisco, CA",
-    period: "Jan 2023 - Present",
-    type: "Full-time",
-    description: "Led development of web applications using React, Node.js, and AWS. Implemented microservices architecture and improved application performance by 40%.",
+    company: "Amrita CREATE",
+    position: "AI Intern",
+    location: "Amritapuri, Kerala",
+    period: "Jun 2025 - Present",
+    type: "Internship",
+    description: " Funded by Ministry of Education and Ministry of IT, Govt. of India",
     achievements: [
-      "Developed and maintained 5+ production applications",
-      "Led a team of 3 junior developers",
-      "Reduced API response time by 60% through optimization",
-      "Implemented CI/CD pipelines using GitHub Actions",
-      "Built scalable microservices architecture",
-      "Mentored junior developers and conducted code reviews"
+      "Developing RAG-based AI Teaching Assistant using JS ML libraries and OLabs content",
+      "Implementing real-time student profiling with MySQL for personalized insights.",
+      "Building analytics dashboard with Chart.js Node.js to track engagement.",
     ],
-    technologies: ["React", "Node.js", "AWS", "PostgreSQL", "Docker", "TypeScript", "GraphQL"]
   };
 
   return (
@@ -149,24 +145,7 @@ const Experience = () => {
               transition={{ duration: 0.5, delay: 1.2 }}
               viewport={{ once: true }}
             >
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">
-                Technologies Used
-              </h4>
-              <div className="flex flex-wrap gap-2">
-                {experience.technologies.map((tech, index) => (
-                  <motion.span
-                    key={tech}
-                    className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm font-medium"
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.3, delay: 1.3 + index * 0.05 }}
-                    viewport={{ once: true }}
-                    whileHover={{ scale: 1.1, y: -2 }}
-                  >
-                    {tech}
-                  </motion.span>
-                ))}
-              </div>
+              
             </motion.div>
           </motion.div>
         </div>

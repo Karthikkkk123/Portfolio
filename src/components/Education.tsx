@@ -5,11 +5,11 @@ import { motion } from 'framer-motion';
 const Education = () => {
   const education = {
     degree: "Bachelor of Technology in Computer Science",
-    university: "State University of Technology",
-    location: "California, USA",
-    period: "2019 - 2023",
-    gpa: "3.8/4.0",
-    status: "Graduated Magna Cum Laude",
+    university: "Amrita Vishwa Vidhyapeetham",
+    location: "Vijayawada, Andhra Pradesh, India",
+    period: "2022 - 2026",
+    gpa: "8.5/10.0",
+    status: "On going",
     description: "Specialized in Software Engineering with focus on web technologies, data structures, algorithms, and software design patterns. Active member of the Computer Science Society and Hackathon Club.",
     coursework: [
       "Data Structures & Algorithms",
@@ -19,7 +19,6 @@ const Education = () => {
       "Computer Networks",
       "Operating Systems",
       "Machine Learning",
-      "Mobile App Development",
       "Object-Oriented Programming",
       "Software Design Patterns",
       "Computer Graphics",
@@ -146,7 +145,7 @@ const Education = () => {
                 viewport={{ once: true }}
               >
                 <motion.img
-                  src="https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="college.jpg"
                   alt="University Campus"
                   className="w-full h-64 object-cover rounded-xl shadow-lg"
                   whileHover={{ scale: 1.05 }}
