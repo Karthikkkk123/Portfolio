@@ -7,33 +7,21 @@ const Skills = () => {
       title: "Backend",
       skills: [
         { name: "TypeScript", icon: "🔷" },
-        { name: "PHP", icon: "🐘" },
-        { name: "C#", icon: "🔷" },
         { name: "Python", icon: "🐍" },
-        { name: "Laravel", icon: "🔴" },
         { name: "Node.js", icon: "🟢" },
         { name: "SQL", icon: "🗄️" },
         { name: "PostgreSQL", icon: "🐘" },
         { name: "MySQL", icon: "🐬" },
-        { name: "DynamoDB", icon: "📊" },
-        { name: "REST APIs", icon: "🔗" },
-        { name: "GraphQL", icon: "🔗" },
-        { name: "Elasticsearch", icon: "🔍" },
-        { name: "Logstash", icon: "📊" }
+        { name: "REST APIs", icon: "🔗" }
       ]
     },
     {
       title: "Frontend",
       skills: [
         { name: "React.js", icon: "⚛️" },
-        { name: "Next.js", icon: "▲" },
-        { name: "Redux", icon: "🔄" },
         { name: "HTML5", icon: "🌐" },
         { name: "CSS3", icon: "🎨" },
         { name: "Tailwind CSS", icon: "💨" },
-        { name: "Webpack", icon: "📦" },
-        { name: "Single Page Applications", icon: "📱" },
-        { name: "Responsive Design", icon: "📱" }
       ]
     },
     {
@@ -42,22 +30,17 @@ const Skills = () => {
         { name: "AWS", icon: "☁️" },
         { name: "Docker", icon: "🐳" },
         { name: "Kubernetes", icon: "⚙️" },
-        { name: "Jenkins", icon: "🔧" },
         { name: "GitHub Actions", icon: "🔄" },
-        { name: "Linux", icon: "🐧" },
-        { name: "CI/CD", icon: "🔄" },
-        { name: "Infrastructure as Code", icon: "🏗️" }
+        { name: "Linux", icon: "🐧" }
       ]
     },
     {
       title: "Practices",
       skills: [
         { name: "Database design", icon: "🗄️" },
-        { name: "Event-driven architecture", icon: "🔄" },
         { name: "Agile", icon: "🏃" },
         { name: "Scrum", icon: "🏉" },
-        { name: "Object Oriented Programming (OOP)", icon: "🧩" },
-        { name: "Test Driven Development (TDD)", icon: "🧪" }
+        { name: "Object Oriented Programming (OOP)", icon: "🧩" }
       ]
     },
     {
@@ -65,9 +48,9 @@ const Skills = () => {
       skills: [
         { name: "Git", icon: "📝" },
         { name: "GitHub", icon: "🐙" },
-        { name: "Sentry", icon: "🔍" },
-        { name: "New Relic", icon: "📊" },
-        { name: "Grafana", icon: "📈" }
+        { name: "Cursor", icon: "💻" },
+        { name: "Windsurf", icon: "💻" },
+        { name: "Visual Studio Code", icon: "💻" }
       ]
     }
   ];

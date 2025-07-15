@@ -100,8 +100,8 @@ const Contact = () => {
             <div className="space-y-6">
               {[
                 { icon: Mail, label: "Email", value: "karthik@example.com", href: "mailto:karthik@example.com", color: "blue" },
-                { icon: Phone, label: "Phone", value: "+1 (234) 567-890", href: "tel:+1234567890", color: "green" },
-                { icon: MapPin, label: "Location", value: "San Francisco, CA", href: "#", color: "purple" }
+                { icon: Phone, label: "Phone", value: "+91 9391581857", href: "tel:+919391581857", color: "green" },
+                { icon: MapPin, label: "Location", value: "Hyderabad, Telangana", href: "#", color: "purple" }
               ].map((item, index) => (
                 <motion.div 
                   key={item.label}
