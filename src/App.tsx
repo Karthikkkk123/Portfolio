@@ -6,7 +6,6 @@ import Achievements from './components/Achievements';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Education from './components/Education';
-import Certificates from './components/Certificates';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -21,7 +20,6 @@ function App() {
         <Skills />
         <Experience />
         <Education />
-        <Certificates />
         <Contact />
       </main>
       <Footer />
