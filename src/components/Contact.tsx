@@ -41,7 +41,7 @@ const Contact = () => {
       };
 
       await emailjs.send(
-        "service_7rabioa", // Replace with your EmailJS service ID
+        "service_vumym5h", // Replace with your EmailJS service ID
         "template_houlv7o", // Replace with your EmailJS template ID
         templateParams
       );
@@ -99,7 +99,11 @@ const Contact = () => {
             {/* Contact Details */}
             <div className="space-y-6">
               {[
+<<<<<<< HEAD
                 { icon: Mail, label: "Email", value: "karthik@example.com", href: "mailto:karthik@example.com", color: "blue" },
+=======
+                { icon: Mail, label: "Email", value: "pagidimarrykarthikeya@gmail.com", href: "mailto:pagidimarrykarthikeya@gmail.com", color: "blue" },
+>>>>>>> e9a5ab8920c21fd637786e12ad6fcf9c2b1c72d8
                 { icon: Phone, label: "Phone", value: "+91 9391581857", href: "tel:+919391581857", color: "green" },
                 { icon: MapPin, label: "Location", value: "Hyderabad, Telangana", href: "#", color: "purple" }
               ].map((item, index) => (
@@ -140,7 +144,7 @@ const Contact = () => {
               <div className="flex gap-4">
                 {[
                   { icon: Github, href: "https://github.com/Karthikkkk123", color: "gray-900" },
-                  { icon: Linkedin, href: "#", color: "blue-600" },
+                  { icon: Linkedin, href: "https://www.linkedin.com/in/karthikeya-pagidimarry/", color: "blue-600" },
                   { icon: MessageCircle, href: "#", color: "green-500" }
                 ].map((social, index) => (
                   <motion.a
